@@ -4,9 +4,9 @@ using System.Collections;
 public class SphereControl : MonoBehaviour {
 
 	float ballSize;
-	float ballInterval = 1f;
+	public float ballInterval = 1f;
 	float mass;
-	float massInterval = 4f;
+	public float massInterval = 4f;
 
 	// Use this for initialization
 	void Start () {
